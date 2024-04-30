@@ -2,6 +2,12 @@
     padding: 0 48px ;
     margin-top: 48px;
 
+    hr {
+        border: 1px solid rgba(255, 255, 255, 0.349);
+        margin-bottom: 36px;
+        
+    }
+
     h2 {
         font-size: 3em;
     }
@@ -13,16 +19,33 @@
     }
 
     &__element {
-        text-align: center;
         margin-top: 32px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
 
-        &__item {
+        &__item {      
+            padding: 16px 32px;
+            display: inline-flex;
+            align-items: center;
+
             img {
+                height: 96px;
                 border-radius: 50%;
             }
+
+            &__text {
+                margin-left: 16px;
+                display: block;
+                text-align: left;
+                
+
+                h4 {
+                    margin-bottom: 8px;
+                }
+            }
         }
+        
         
     }
 

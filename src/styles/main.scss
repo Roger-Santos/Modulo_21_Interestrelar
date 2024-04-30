@@ -4,6 +4,7 @@
 @use 'info';
 @use 'trailer';
 @use 'cast';
+@use 'social';
 
 * {
     margin: 0;
@@ -15,5 +16,5 @@
 }
 
 body {
-    background-color: variaveis.$corDeFundo;
+    background: linear-gradient(180deg, rgba(5,8,17,1) 25%, rgba(21,37,85,1) 100%);
 }                                          
