@@ -1,0 +1,30 @@
+.cast {
+    padding: 0 48px ;
+    margin-top: 48px;
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        color: #ffc107;
+        font-size: 1.5em;
+        margin-left: 48px;
+    }
+
+    &__element {
+        text-align: center;
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        &__item {
+            img {
+                border-radius: 50%;
+            }
+        }
+        
+    }
+
+    
+}

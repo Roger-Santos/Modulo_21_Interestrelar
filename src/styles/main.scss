@@ -1,16 +1,19 @@
 @use 'variaveis';
 @use 'header';
 @use 'hero';
+@use 'info';
 @use 'trailer';
+@use 'cast';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Avenir, sans-serif;
+    color: #fff;
     list-style: none;
 }
 
 body {
     background-color: variaveis.$corDeFundo;
-}
+}                                          

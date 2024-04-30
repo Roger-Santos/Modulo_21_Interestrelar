@@ -8,66 +8,98 @@
 
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <div class="header__container__left">
-                <img class="header__logo" src="./dist/images/_paramount.jpg" alt="Paramount">
-            </div>
-            <div class="header__container__right">
-                <ul class="header__links">
-                    <li class="header__links__item">
-                        <a href="#">                            
-                            <img class="header__social" src="./dist/images/_facebook.jpg" alt="Paramount">
-                        </a>
-                    </li>   
-                    <li class="header__links__item">
-                        <a href="#"> 
-                            <img class="header__social" src="./dist/images/_instagram.png" alt="Instagram">
-                        </a>
-                    </li>   
-                    <li class="header__links__item">
-                        <a href="#">
-                            <img class="header__social" src="./dist/images/_twitter.jpg" alt="Twitter">
-                        </a>
-                    </li>                   
-                </ul>
-            </div>
+    <header>
+        <div class="header_left">
+            <a href="https://www.legendary.com/">
+                <img src="dist/images/logo-flat-white.png" alt="Facebook">
+            </a>
+        </div>
+        <div class="header_right">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/legendary">
+                        <img src="dist/images/icon-facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/Legendary/">
+                        <img src="dist/images/icon-instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Legendary">
+                        <img src="dist/images/icon-twitter.png" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.youtube.com/legendarychannel">
+                        <img src="dist/images/icon-youtube.png" alt="Youtube">
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
     <section class="hero">
-        <div class="hero__content">
-            <div class="hero__content__Title">
-                <h1 class="title--main">INTERSTELLAR</h1>
+        <div class="hero__transparencia">
+            <div class="hero__title">
+                <h1>interstellar</h1>
+                <p>IMDB:</p>
+                <div class="hero__title__stars">
+                    <img src="dist/images/star_full.png" alt="Estrela completa">
+                    <img src="dist/images/star_full.png" alt="Estrela completa">
+                    <img src="dist/images/star_full.png" alt="Estrela completa">
+                    <img src="dist/images/star_full.png" alt="Estrela completa">
+                    <img src="dist/images/star_half.png" alt="Estrela pela metade">
+                </div>
+                <p>When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
+                </p>
             </div>
-            <h4 class="title--small">
-                When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.
-            </h4>            
-        </div>        
+        </div>
     </section>
-    <section class="trailer">
-        <div class="trailer__box">
-            <div class="trailer__box__info">
-                <div class="trailer__box__info__label">DIRECTOR</div>
-                <div class="trailer__box__info__text">Christopher Nolan</div>
+    <section class="info">
+        <div class="info__box">
+            <div class="info__box__element">
+                <div class="info__box__element__label">DIRECTOR</div>
+                <div class="info__box__element__text">Christopher Nolan</div>
             </div>
-            <div class="trailer__box__info">
-                <div class="trailer__box__info__label">YEAR</div>
-                <div class="trailer__box__info__text">2014</div>
+            <div class="info__box__element">
+                <div class="info__box__element__label">YEAR</div>
+                <div class="info__box__element__text">2014</div>
             </div>
-            <div class="trailer__box__info">
-                <div class="trailer__box__info__label">TIME</div>
-                <div class="trailer__box__info__text">2h 49m</div>
+            <div class="info__box__element">
+                <div class="info__box__element__label">TIME</div>
+                <div class="info__box__element__text">2h 49m</div>
             </div>
-            <div class="trailer__box__info">
-                <div class="trailer__box__info__label">THEME</div>
-                <div class="trailer__box__info__text">Adventure | Sci-Fi</div>
+            <div class="info__box__element">
+                <div class="info__box__element__label">THEME</div>
+                <div class="info__box__element__text">Adventure | Sci-Fi</div>
             </div>          
         </div>
-        <div class="trailer__area">
-            <iframe width="1020" height="630" src="https://www.youtube.com/embed/0vxOhd4qlnA?si=PSHgUvFHcjOkkwWp" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>       
-        </div>
-        
     </section>
-    <script src="./dist/js/main.js"></script>
+    <section class="trailer">
+        <div class="trailer__title">
+            <h2>Trailer</h2>
+            <h3>Watch Now</h3>
+        </div>
+        <div class="trailer__video">
+            <iframe width="1020" height="630" src="https://www.youtube.com/embed/0vxOhd4qlnA?si=PSHgUvFHcjOkkwWp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>       
+        </div>
+    </section>
+    <section class="cast">
+        <div class="cast__title">
+            <h2>Cast & Crew</h2>
+            <h3>The Team</h3>
+
+            <ul class="cast__element">
+                <li class="cast__element__item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTg0MDc3ODUwOV5BMl5BanBnXkFtZTcwMTk2NjY4Nw@@._V1_QL75_UX280_CR0,43,280,280_.jpg" alt="">
+                    <span>Matthew McConaughey</span>
+                    <span>Cooper</span>
+                </li>
+  
+
+            </ul>
+        </div>
+    </section>
 </body>
 </html>
